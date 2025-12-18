@@ -100,7 +100,7 @@ int main()
     int minCut = INF;
 
     // run multiple times for better accuracy
-    for (int i = 0; i < 30; i++)
+    for (int i = 0; i < 53; i++)
     {
         int cut = randomMinCut(graph);
         minCut = min(minCut, cut);
